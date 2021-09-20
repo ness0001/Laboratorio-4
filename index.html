@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./css/styles.css">
+    
+
+</head>
+<body >
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+        </ul>
+    </nav>
+    <!-- <ol type="i">
+        <li>hola</li>
+        <li>mundo</li>
+        <li>como</li>
+        <li>estan?</li>
+    </ol> -->   
+    <header>
+        <h1>ServiceCloud</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque vitae atque in sit, nam eius, totam tempora libero, numquam assumenda temporibus. Aperiam maxime neque obcaecati iusto sit distinctio quisquam nulla.</p>
+    </header> 
+       
+    
+    <main> 
+        <h1>Bienvenidos a nuestro lugar en el mundo</h1>
+        <p>Lorem <b>ipsum dolor sit amet</b> consectetur, adipisicing elit. Incidunt nam amet iusto deleniti, cum impedit autem, dicta odit minus voluptas consectetur culpa, <strong>quod enim eveniet tempore fugit laudantium in ea</strong>.</p>
+        <img src="./images/imagen-01.jpeg" alt="Tomando café">
+        <img src="./images/imagen-02.jpeg" alt="Tablet">
+        <img src="./images/imagen-03.jpeg" alt="Reunion">
+        
+        <h2>¿Qué servicio brindamos?</h2>
+        <ul>
+            <li>Servicio de guardado digital</li>
+            <li>Servicio de versionado</li>
+            <li>Servicio de deteccion de errores del proceso</li>
+        </ul>
+
+
+    </main>
+
+
+    <form action="codigo.php" method="post" style="margin-left: 30px;">
+
+        <lable>*Nombre y Apellido:<br><input type="text" name="nombre" placeholder="Juan Perez" required></lable><br>
+        <label>*Email:<br><input type="email" name="email" placeholder="email@dominio.com" required></label><br>
+        <label for="">*Edad: <br> <input type="number" name="edad" placeholder="18" required min="18" max="80">  </label><br>
+        <label for="textarea">*Mensaje:</label><br>
+        <textarea name="mensaje" id="textarea" cols="30" rows="10" placeholder="Mensaje" required></textarea><br>
+        <label>*Servicio: <br> 
+            <select name="servicio" required>
+                <option value="">Elegir</option>
+                <option value="digital">Guardado digital</option>
+                <option value="versionado">Versionado</option>
+                <option value="errores">Errores de proceso</option>
+            </select>
+        </label><br>
+
+        <span>* campos obligatorios / el campo edad debe tener un min de 18 y un max 80</span><br>
+        <button>Enviar</button>
+
+
+
+    </form>
+
+
+
+
+    <footer></footer>
+
+
+
+</body>
+</html>
